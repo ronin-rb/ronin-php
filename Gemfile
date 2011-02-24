@@ -6,9 +6,10 @@ RONIN_URI = 'http://github.com/ronin-ruby'
 
 gemspec
 
-gem 'i18n',           '~> 0.4.1'
-gem 'tzinfo',         '~> 0.3.22'
-gem 'activesupport',  '~> 3.0.0'
+gem 'i18n',           '~> 0.4.1', :groups => [:default, :development]
+gem 'tzinfo',         '~> 0.3.22', :groups => [:default, :development]
+gem 'activesupport',  '~> 3.0.0', :groups => [:default, :development]
+
 
 # Ronin dependencies
 # gem 'ronin-support',  '~> 0.1.0', :git => "#{RONIN_URI}/ronin-support.git"

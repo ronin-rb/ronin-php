@@ -1,15 +1,10 @@
 source 'https://rubygems.org'
 
 DM_URI = 'http://github.com/datamapper'
-DM_VERSION = '~> 1.0.2'
+DM_VERSION = '~> 1.1.0'
 RONIN_URI = 'http://github.com/ronin-ruby'
 
 gemspec
-
-gem 'i18n',           '~> 0.4.1', :groups => [:default, :development]
-gem 'tzinfo',         '~> 0.3.22', :groups => [:default, :development]
-gem 'activesupport',  '~> 3.0.0', :groups => [:default, :development]
-
 
 # Ronin dependencies
 # gem 'ronin-support',  '~> 0.1.0', :git => "#{RONIN_URI}/ronin-support.git"
@@ -24,9 +19,6 @@ group :development do
 
   gem 'cssmin',       '~> 1.0.2'
   gem 'jsmin',        '~> 1.0.1'
-  gem 'ronin-support','~> 0.1.0.rc1'
-  gem 'ronin',		    '~> 1.0.0.rc1'
-  gem 'ronin-gen',	  '~> 1.0.0.rc1'
 
   gem 'ore-tasks',    '~> 0.4'
   gem 'rspec',        '~> 2.4'

@@ -106,12 +106,12 @@ Scan a URL for LFI vulnerabilities:
 
 * [cssmin](http://rubygems.org/gems/cssmin) ~> 1.0.2
 * [jsmin](http://rubygems.org/gems/jsmin) ~> 1.0.1
-* [ronin-support](http://github.com/ronin-ruby/ronin-support) ~> 0.1.0
-* [ronin](http://github.com/ronin-ruby/ronin) ~> 1.0.0
-* [ronin-gen](http://github.com/ronin-ruby/ronin-gen) ~> 1.0.0
-* [ronin-scanners](http://github.com/ronin-ruby/ronin-scanners) ~> 1.0.0
-* [ronin-web](http://github.com/ronin-ruby/ronin-web) ~> 0.3.0
-* [ronin-exploits](http://github.com/ronin-ruby/ronin-exploits) ~> 1.0.0
+* [ronin-support](http://github.com/ronin-ruby/ronin-support) ~> 0.2
+* [ronin](http://github.com/ronin-ruby/ronin) ~> 1.1
+* [ronin-gen](http://github.com/ronin-ruby/ronin-gen) ~> 1.0
+* [ronin-scanners](http://github.com/ronin-ruby/ronin-scanners) ~> 1.0
+* [ronin-web](http://github.com/ronin-ruby/ronin-web) ~> 0.3
+* [ronin-exploits](http://github.com/ronin-ruby/ronin-exploits) ~> 1.0
 
 ## Install
 
